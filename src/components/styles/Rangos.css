@@ -42,16 +42,16 @@
   z-index: -1;
 }
 .oro {
-  background-image: url("../Rangos/Rango-img/oro.jpg");
+  background-image: url("../img/oro.jpg");
 }
 .diamante {
-  background-image: url("../Rangos/Rango-img/diamante.jpg");
+  background-image: url("../img/diamante.jpg");
 }
 .redstone {
-  background-image: url("../Rangos/Rango-img/redstone.jpg");
+  background-image: url("../img/redstone.jpg");
 }
 .esmeralda {
-  background-image: url("../Rangos/Rango-img/esmeralda.jpg");
+  background-image: url("../img/esmeralda.jpg");
 }
 .RangoElement img {
   width: 90px;

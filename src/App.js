@@ -1,12 +1,12 @@
 import Swal from "sweetalert2";
 import "./App.css";
-import Header from "./components/Header/Header";
-import Home from "./components/Home/Home";
+import Header from "./components/Header";
+import Home from "./components/Home";
 import { Route, Routes } from "react-router";
-import Rangos from "./components/Rangos/Rangos";
-import Donaciones from "./components/Donaciones/Donaciones";
-import MiniJuegos from "./components/Minijuegos/MiniJuegos";
-import Footer from "./components/Footer/Footer";
+import Rangos from "./components/Rangos";
+import Donaciones from "./components/Donaciones";
+import MiniJuegos from "./components/MiniJuegos";
+import Footer from "./components/Footer";
 
 function App() {
   const copiarAlPortapapeles = () => {

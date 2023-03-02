@@ -1,9 +1,9 @@
-import RangoOro from "./Rango-img/Rango-oro.png";
-import RangoDiamante from "./Rango-img/Rango-diamante.png";
-import RangoRedstone from "./Rango-img/Rango-redstone.png";
-import RangoEsmeralda from "./Rango-img/Rango-esmeralda.png";
+import RangoOro from "./img/Rango-oro.png";
+import RangoDiamante from "./img/Rango-diamante.png";
+import RangoRedstone from "./img/Rango-redstone.png";
+import RangoEsmeralda from "./img/Rango-esmeralda.png";
 import RangoElement from "./RangoElement";
-import "./Rangos.css";
+import "./styles/Rangos.css";
 
 export default function Rangos() {
   return (

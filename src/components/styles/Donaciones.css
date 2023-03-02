@@ -1,0 +1,48 @@
+.donaciones {
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  background-color: #00000099;
+  backdrop-filter: blur(5px);
+  padding: 10px 0;
+}
+.donacion {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  gap: 30px;
+  font-size: 1.2rem;
+}
+.donacion img {
+  width: 150px;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  width: 200px;
+  border: 5px solid #ffffff92;
+  margin: 10px 30px;
+}
+.donacion-content a {
+  width: max-content;
+  margin: auto;
+  display: flex;
+  padding: 0.5rem 1.5rem;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffffffd5;
+  color: #000000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.donacion-content a:hover {
+  transition: 0.4s all;
+  color: #fff;
+  background-color: rgba(130, 125, 125, 0.733);
+}

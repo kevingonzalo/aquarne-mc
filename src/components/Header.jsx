@@ -1,5 +1,5 @@
-import "./Header.css";
-import logo from "../img/logoWeb.png";
+import "./styles/Header.css";
+import logo from "./img/logoWeb.png";
 import Navbar from "./Navbar";
 export default function Header() {
   return (

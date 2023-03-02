@@ -1,0 +1,35 @@
+.minijuegos {
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  background-color: #00000099;
+  backdrop-filter: blur(5px);
+  padding: 10px 0;
+}
+.linea-separadora-minijuego {
+  width: 80%;
+}
+.minijuego {
+  width: 80%;
+  margin: auto;
+}
+.minijuego h1 {
+  font-size: 1.3rem;
+}
+.minijuego-content {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.minijuego-content img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #ffffff92;
+  object-fit: cover;
+  margin: 10px 30px;
+  border-radius: 50%;
+}
+.minijuego-content p {
+  font-size: 1.2rem;
+}
