@@ -31,3 +31,20 @@
   font-size: 1.2rem;
   text-align: justify;
 }
+@media (max-width: 800px) {
+  .home {
+    width: 100%;
+  }
+  .descripcion-home {
+    flex-direction: column;
+  }
+  .descripcion-home img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .descripcion-home p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+}

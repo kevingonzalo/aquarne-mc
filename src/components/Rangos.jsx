@@ -11,28 +11,24 @@ export default function Rangos() {
       <h1>Rangos</h1>
       <hr className="linea-separadora" />
       <div className="rangos-list">
-        <div className="elemento-rango">
-          <div className="background oro"></div>
+        <div className="elemento-rango oro">
           <RangoElement imagen={RangoOro} alt="Rango Oro de AquarneMC server minecraft" description="Rango Oro" />
         </div>
-        <div className="elemento-rango">
-          <div className="background diamante"></div>
+        <div className="elemento-rango diamante">
           <RangoElement
             imagen={RangoDiamante}
             alt="Rango Diamante de AquarneMC server minecraft"
             description="Rango Diamante"
           />{" "}
         </div>
-        <div className="elemento-rango">
-          <div className="background esmeralda"></div>
+        <div className="elemento-rango esmeralda">
           <RangoElement
             imagen={RangoEsmeralda}
             alt="Rango esmeralda de AquarneMC server minecraft"
             description="Rango esmeralda"
           />
         </div>
-        <div className="elemento-rango">
-          <div className="background redstone"></div>
+        <div className="elemento-rango redstone">
           <RangoElement
             imagen={RangoRedstone}
             alt="Rango redstone de AquarneMC server minecraft"

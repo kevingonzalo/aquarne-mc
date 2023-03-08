@@ -19,13 +19,23 @@ footer {
   border-radius: 6px;
   background-color: #000;
 }
-.contacto:hover {
+.contacto.responsivo {
+  padding: 5px 10px;
+  margin: 0 10px;
+  border-radius: 6px;
+  background-color: #000;
+  display: none;
+}
+.contacto:hover,
+.contacto.responsivo :hover {
   transition: 0.4s;
   background-color: #555454;
 }
-.creada {
-  left: 5%;
-  top: 50%;
-  position: absolute;
-  color: #ffffffa9;
+@media (max-width: 800px) {
+  .contacto {
+    display: none;
+  }
+  .contacto.responsivo {
+    display: inline-block;
+  }
 }

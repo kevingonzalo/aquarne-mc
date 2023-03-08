@@ -15,16 +15,11 @@ export default function Footer() {
           >
             aquarnestaff@gmail.com
           </a>
+          <a href="mailto:aquarnestaff@gmail.com" target="_blank" rel="noreferrer" className="contacto responsivo">
+            aquarnestaff@gmail.com
+          </a>
         </p>
       </p>
-      <a
-        href="https://www.linkedin.com/in/kevin-balmaceda-a0350b199/"
-        className="creada"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Creador de la Web
-      </a>
     </footer>
   );
 }

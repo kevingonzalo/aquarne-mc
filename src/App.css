@@ -38,3 +38,19 @@
   transition: 0.4s;
   background-color: rgba(128, 128, 128, 0.733);
 }
+@media (max-width: 800px) {
+  .container {
+    gap: 10px;
+  }
+  #enlace {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 30px;
+    left: 40%;
+    font-size: 0.8rem;
+    width: 130px;
+    height: 40px;
+  }
+}

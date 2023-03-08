@@ -6,40 +6,21 @@
   margin: auto;
   background-color: #00000099;
   backdrop-filter: blur(5px);
-  padding: 1rem 0;
 }
 .rangos-list {
-  width: 100%;
+  width: 95%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 20%);
+  grid-template-columns: repeat(auto-fill, 230px);
   place-content: center;
-  gap: 30px;
-}
-.RangoElement {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2rem;
-  background-color: #00000051;
-  backdrop-filter: blur(3px);
-  border: 3px solid #ffffffae;
-  overflow: hidden;
-  z-index: 0;
+  gap: 20px;
 }
 .elemento-rango {
   position: relative;
+  background-image: url("../img/oro.jpg");
+  background-position: 50%;
   overflow: hidden;
-}
-.background {
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-position: center;
-  background-size: cover;
-  z-index: -1;
+  border: 3px solid #ffffffae;
 }
 .oro {
   background-image: url("../img/oro.jpg");
@@ -53,9 +34,17 @@
 .esmeralda {
   background-image: url("../img/esmeralda.jpg");
 }
+.RangoElement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 2rem;
+  background-color: #00000051;
+  backdrop-filter: blur(3px);
+}
 .RangoElement img {
-  width: 90px;
-  padding: 1rem;
+  width: 70px;
 }
 .linea-separadora {
   width: 90%;
@@ -64,6 +53,7 @@
   background-color: #fff;
 }
 .RangoElement p {
+  text-align: center;
   font-size: 1.4rem;
   text-shadow: 2px 2px 1px #000;
 }
@@ -80,4 +70,12 @@
   transition: 0.4s all;
   color: #fff;
   background-color: rgba(130, 125, 125, 0.733);
+}
+@media (max-width: 800px) {
+  .rangos {
+    width: 100%;
+  }
+  .rangos-list {
+    grid-template-columns: repeat(auto-fill, 170px);
+  }
 }

@@ -17,7 +17,6 @@
   font-size: 1.2rem;
 }
 .donacion img {
-  width: 150px;
   object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -45,4 +44,19 @@
   transition: 0.4s all;
   color: #fff;
   background-color: rgba(130, 125, 125, 0.733);
+}
+@media (max-width: 800px) {
+  .donaciones {
+    width: 100%;
+  }
+  .donacion {
+    flex-direction: column;
+    gap: 0;
+  }
+  .donacion img {
+    width: 150px;
+  }
+  .donacion-content p {
+    font-size: 1.2rem;
+  }
 }
