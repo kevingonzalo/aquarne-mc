@@ -33,3 +33,16 @@
 .minijuego-content p {
   font-size: 1.2rem;
 }
+@media (max-width: 900px) {
+  .minijuegos {
+    width: 100%;
+  }
+  .minijuego {
+    width: 80%;
+  }
+  .minijuego-content {
+    gap: 0;
+    flex-direction: column;
+    text-align: justify;
+  }
+}
